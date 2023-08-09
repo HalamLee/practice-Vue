@@ -1,21 +1,27 @@
 <script setup>
+import { defineProps, reactive } from 'vue';
+
 defineProps({
   msg: {
     type: String,
-    required: true
-  }
-})
+    required: true,
+  },
+});
+
+const state = reactive({ count: 0 });
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
-  </div>
+  <h1 class="green">{{ msg }}</h1>
+  <button type="button" @click="state.count++">
+    count is: {{ state.count }}
+  </button>
+  <h3>
+    You’ve successfully created a project with
+    <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
+    <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+  </h3>
+  <h1>테스트</h1>
 </template>
 
 <style scoped>
@@ -24,6 +30,10 @@ h1 {
   font-size: 2.6rem;
   position: relative;
   top: -10px;
+}
+
+button {
+  cursor: pointer;
 }
 
 h3 {
