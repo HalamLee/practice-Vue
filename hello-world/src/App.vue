@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue';
 import TheWelcome from '@components/TheWelcome.vue';
+import Code38 from './components/Code3_8.vue';
 </script>
 
 <template>
@@ -18,7 +19,8 @@ import TheWelcome from '@components/TheWelcome.vue';
   </header>
 
   <main>
-    <TheWelcome />
+    <!-- <TheWelcome /> -->
+    <Code38 />
   </main>
 </template>
 
