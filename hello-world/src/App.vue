@@ -7,6 +7,7 @@ import Conditional from '@components/Conditional.vue';
 import List from '@components/List.vue';
 import Code3_11 from './components/Code3_11.vue';
 import Code3_12 from './components/Code3_12.vue';
+import Code3_13 from './components/Code3_13.vue';
 </script>
 
 <template>
@@ -30,7 +31,8 @@ import Code3_12 from './components/Code3_12.vue';
     <!-- <Conditional /> -->
     <!-- <List /> -->
     <!-- <Code3_11 /> -->
-    <Code3_12 />
+    <!-- <Code3_12 /> -->
+    <Code3_13 />
   </main>
 </template>
 
