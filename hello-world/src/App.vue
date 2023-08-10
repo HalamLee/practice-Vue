@@ -5,6 +5,7 @@ import Code38 from './components/Code3_8.vue';
 import Counter from '@components/Counter.vue';
 import Conditional from '@components/Conditional.vue';
 import List from '@components/List.vue';
+import Code3_11 from './components/Code3_11.vue';
 </script>
 
 <template>
@@ -26,7 +27,8 @@ import List from '@components/List.vue';
     <!-- <Code38 /> -->
     <!-- <Counter /> -->
     <!-- <Conditional /> -->
-    <List />
+    <!-- <List /> -->
+    <Code3_11 />
   </main>
 </template>
 
