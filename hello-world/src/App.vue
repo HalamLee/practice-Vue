@@ -4,6 +4,7 @@ import TheWelcome from '@components/TheWelcome.vue';
 import Code38 from './components/Code3_8.vue';
 import Counter from '@components/Counter.vue';
 import Conditional from '@components/Conditional.vue';
+import List from '@components/List.vue';
 </script>
 
 <template>
@@ -24,7 +25,8 @@ import Conditional from '@components/Conditional.vue';
     <!-- <TheWelcome /> -->
     <!-- <Code38 /> -->
     <!-- <Counter /> -->
-    <Conditional />
+    <!-- <Conditional /> -->
+    <List />
   </main>
 </template>
 
