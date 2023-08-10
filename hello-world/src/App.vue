@@ -6,6 +6,7 @@ import Counter from '@components/Counter.vue';
 import Conditional from '@components/Conditional.vue';
 import List from '@components/List.vue';
 import Code3_11 from './components/Code3_11.vue';
+import Code3_12 from './components/Code3_12.vue';
 </script>
 
 <template>
@@ -28,7 +29,8 @@ import Code3_11 from './components/Code3_11.vue';
     <!-- <Counter /> -->
     <!-- <Conditional /> -->
     <!-- <List /> -->
-    <Code3_11 />
+    <!-- <Code3_11 /> -->
+    <Code3_12 />
   </main>
 </template>
 
