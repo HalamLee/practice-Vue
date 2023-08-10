@@ -2,6 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue';
 import TheWelcome from '@components/TheWelcome.vue';
 import Code38 from './components/Code3_8.vue';
+import Counter from '@components/Counter.vue';
 </script>
 
 <template>
@@ -20,7 +21,8 @@ import Code38 from './components/Code3_8.vue';
 
   <main>
     <!-- <TheWelcome /> -->
-    <Code38 />
+    <!-- <Code38 /> -->
+    <Counter />
   </main>
 </template>
 
