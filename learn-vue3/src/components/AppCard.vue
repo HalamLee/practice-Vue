@@ -29,7 +29,7 @@ const props = defineProps({
   },
   contents: {
     type: String,
-    required: true,
+    // required: true,
   },
   isLike: {
     type: Boolean,
