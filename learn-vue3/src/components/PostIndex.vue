@@ -12,7 +12,7 @@
               :type="post.type"
               :is-like="post.isLike"
               /> -->
-            <AppCard v-bind="post" @toggle-like="post.isLike = !post.isLike" />
+            <PostItem v-bind="post" @toggle-like="post.isLike = !post.isLike" />
           </div>
         </div>
         <hr class="my-4" />
@@ -24,7 +24,7 @@
 </template>
 
 <script setup>
-import AppCard from './AppCard.vue';
+import PostItem from './PostItem.vue';
 import PostCreate from './PostCreate.vue';
 import LabelInput from './LabelInput.vue';
 
