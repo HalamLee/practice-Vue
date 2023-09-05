@@ -1,11 +1,11 @@
 <template>
   <main>
-    <LifecycleHooks />
+    <TemplateRefs />
   </main>
 </template>
 
 <script setup>
-import LifecycleHooks from './LifecycleHooks.vue';
+import TemplateRefs from './TemplateRefs.vue';
 </script>
 
 <style lang="scss" scoped></style>
