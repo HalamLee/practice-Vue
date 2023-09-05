@@ -1,15 +1,11 @@
 <template>
-  <div>
-    <main>
-      <div class="container py-4">
-        <ProvideInject />
-      </div>
-    </main>
-  </div>
+  <main>
+    <LifecycleHooks />
+  </main>
 </template>
 
 <script setup>
-import ProvideInject from './ProvideInject.vue';
+import LifecycleHooks from './LifecycleHooks.vue';
 </script>
 
 <style lang="scss" scoped></style>
