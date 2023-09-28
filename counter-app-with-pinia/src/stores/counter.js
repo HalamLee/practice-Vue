@@ -5,4 +5,12 @@ export const useCounterStore = defineStore({
   state: () => ({
     count: 0,
   }),
+  actions: {
+    increaseCount() {
+      this.count++;
+    },
+    decreaseCount() {
+      this.count--;
+    },
+  },
 });

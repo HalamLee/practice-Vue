@@ -4,8 +4,8 @@
       {{ storeCounter.count }}
     </div>
     <div class="buttons">
-      <button @click="decreaseCount">-</button>
-      <button @click="increaseCount">+</button>
+      <button @click="storeCounter.decreaseCount">-</button>
+      <button @click="storeCounter.increaseCount">+</button>
     </div>
     <hr />
     <div>This counter is: {{ oddOrEven }}</div>
