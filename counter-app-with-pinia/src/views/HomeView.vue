@@ -8,7 +8,7 @@
       <button @click="storeCounter.increaseCount">+</button>
     </div>
     <hr />
-    <div>This counter is: {{ oddOrEven }}</div>
+    <div>This counter is: {{ storeCounter.oddOrEven }}</div>
   </div>
 </template>
 
