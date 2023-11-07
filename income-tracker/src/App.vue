@@ -1,10 +1,27 @@
-<script setup></script>
+<script setup>
+import { reactive, computed } from 'vue';
+import Header from './components/Header.vue';
+
+const state = reactive({
+  income: [],
+  totalIncome: computed(() => {
+    let temp = 0;
+
+    if (state.income.length > 0) {
+      for (let i = 0; i < state.income.length; i++) {
+        temp += state.income[i].value;
+      }
+    }
+    return temp;
+  }),
+});
+</script>
 
 <template>
-  <h1>Hello</h1>
+  <Header :totalIncome="state.totalIncome" />
 </template>
 
-<style scoped>
+<style>
 * {
   margin: 0;
   padding: 0;
